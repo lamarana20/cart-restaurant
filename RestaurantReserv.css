@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a19894;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 350px;
+}
+.image-container {
+    position: relative;
+}
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+#point {
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+    color:white;
+    font-size: 3.5rem;
+   
+   
+}
+.card-content {
+    padding: 20px;
+  
+  
+
+}
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+.card-location {
+    color: grey;
+    margin: 5px 0;
+    font-size: small;
+}
+.card-reviews {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.card-reviews span {
+    margin-left: 5px;
+    color:black;
+    font-size: 0.8em;
+}
+.card-description {
+    color: black;
+    font-size: 0.8em;
+    line-height: 1.6;
+    width: 100%;
+}
+.card button {
+    background-color: black;
+    color: white;
+    border: none;
+  
+    border-radius: 5px;
+    width: 100%;
+   padding: 20px;
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+.card button:hover {
+    background-color: #333;
+}
+.card-heart {
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    right: 20px;
+  border: black;
+ 
+  
+}
+.stars {
+    color: rgb(254,138,34)
+   
+}
